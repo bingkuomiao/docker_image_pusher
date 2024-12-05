@@ -7,7 +7,7 @@ nginx
 --platform=linux/arm64 p3terx/aria2-pro
 --platform=linux/arm64 xhofe/alist-aria2:latest
 --platform=linux/arm64 dperson/samba
---platform=linux/arm64 ypptec/nascab
+--platform=linux/arm64 ypptec/nascab:3.5.3-arm64
 --platform=linux/arm64 ugeek/webdav:arm64
 --platform=linux/arm64 lomorage/arm64-lomorage:latest
 --platform=linux/arm64 syncthing/syncthing:latest
