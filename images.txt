@@ -22,4 +22,4 @@
 --platform=linux/arm64 jellyfin/jellyfin:latest
 --platform=linux/arm64 boredazfcuk/icloudpd
 --platform=linux/arm64 containrrr/watchtower
-#--platform=linux/arm64 ghcr.io/immich-app/immich-machine-learning
+--platform=linux/arm64  ghcr.io/immich-app/immich-machine-learning:release-openvino
