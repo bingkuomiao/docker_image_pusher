@@ -23,4 +23,4 @@
 --platform=linux/arm64 boredazfcuk/icloudpd
 --platform=linux/arm64 containrrr/watchtower
 #remote immich ml
-ghcr.io/immich-app/immich-machine-learning:release-openvino
+ghcr.io/immich-app/immich-machine-learning:release-aliyun-openvino
