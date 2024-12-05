@@ -1,6 +1,25 @@
 nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+--platform=linux/arm64 p3terx/aria2-pro
+--platform=linux/arm64 xhofe/alist-aria2:latest
+--platform=linux/arm64 dperson/samba
+--platform=linux/arm64 ypptec/nascab
+--platform=linux/arm64 ugeek/webdav:arm64
+--platform=linux/arm64 lomorage/arm64-lomorage:latest
+--platform=linux/arm64 syncthing/syncthing:latest
+--platform=linux/arm64 lollipopkit/srvbox_monitor:latest
+--platform=linux/arm64 mysql:latest
+--platform=linux/arm64 lscr.io/linuxserver/piwigo:latest
+--platform=linux/arm64 deluan/navidrome:latest
+--platform=linux/arm64 fogforest/yesplaymusic
+--platform=linux/arm64 stilleshan/speedtest-x
+--platform=linux/arm64 ghcr.io/linuxserver/librespeed
+--platform=linux/arm64 emby/embyserver_arm64v8:latest
+--platform=linux/arm64 jellyfin/jellyfin:latest
+--platform=linux/arm64 boredazfcuk/icloudpd
+--platform=linux/arm64 containrrr/watchtower
+#--platform=linux/arm64 ghcr.io/immich-app/immich-machine-learning
