@@ -2,6 +2,14 @@
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
+
+#immich
+ghcr.io/immich-app/immich-machine-learning:release-openvino
+ghcr.io/immich-app/immich-machine-learning:release
+ghcr.io/immich-app/immich-server:release
+docker.io/tensorchord/pgvecto-rs:pg14-v0.2.0@sha256:90724186f0a3517cf6914295b5ab410db9ce23190a2d9d0b9dd6463e3fa298f0
+docker.io/redis:6.2-alpine@sha256:eaba718fecd1196d88533de7ba49bf903ad33664a92debb24660a922ecd9cac8
+
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 --platform=linux/arm64 p3terx/aria2-pro
@@ -22,9 +30,4 @@
 --platform=linux/arm64 jellyfin/jellyfin:latest
 --platform=linux/arm64 boredazfcuk/icloudpd
 --platform=linux/arm64 containrrr/watchtower
-#remote immich ml
-ghcr.io/immich-app/immich-machine-learning:release-openvino
-ghcr.io/immich-app/immich-machine-learning:release
-ghcr.io/immich-app/immich-server:release
-docker.io/tensorchord/pgvecto-rs:pg14-v0.2.0@sha256:90724186f0a3517cf6914295b5ab410db9ce23190a2d9d0b9dd6463e3fa298f0
-docker.io/redis:6.2-alpine@sha256:eaba718fecd1196d88533de7ba49bf903ad33664a92debb24660a922ecd9cac8
+
