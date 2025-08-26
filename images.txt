@@ -1,6 +1,22 @@
-nginx
+# nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+# k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+# xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+# --platform=linux/arm64 xiaoyaliu/alist
+
+# immich remote不可直接用arm64的image,根据标签tag下载
+--platform=linux/amd64 ghcr.io/immich-app/immich-machine-learning:release-openvino
+
+# immich
+--platform=linux/arm64 ghcr.io/immich-app/immich-server:release
+--platform=linux/arm64 ghcr.io/immich-app/immich-machine-learning:release
+--platform=linux/arm64 docker.io/valkey/valkey:8-bookworm
+--platform=linux/arm64 ghcr.io/immich-app/postgres:14-vectorchord0.4.3-pgvectors0.2.0
+
+# 其他指定arm64架构
+--platform=linux/arm64 bingkuomiao445/taosync2:latest
+--platform=linux/arm64 openlistteam/openlist:latest
+--platform=linux/arm64 dperson/samba:latest
+--platform=linux/arm64 containrrr/watchtower:latest
+--platform=linux/arm64 ugeek/webdav:arm64
