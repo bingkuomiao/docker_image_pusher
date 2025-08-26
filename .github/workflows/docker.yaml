@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
-    schedule: #北京时间加8小时
+  schedule: #北京时间加8小时
     - cron:  '30 8,20 * * *'
 
 env:
