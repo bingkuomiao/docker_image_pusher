@@ -23,4 +23,4 @@
 --platform=linux/arm64 hectorqin/reader
 --platform=linux/arm64 hectorqin/reader:openj9-latest
 --platform=linux/arm64 hectorqin/remote-webview
---platform=linux/arm64 kangkang223/reader3:latest
+--platform=linux/arm64 kangkang223/reader:latest
