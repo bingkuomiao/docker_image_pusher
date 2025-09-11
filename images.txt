@@ -20,7 +20,5 @@
 --platform=linux/arm64 dperson/samba:latest
 --platform=linux/arm64 containrrr/watchtower:latest
 --platform=linux/arm64 ugeek/webdav:arm64
---platform=linux/arm64 hectorqin/reader
 --platform=linux/arm64 hectorqin/reader:openj9-latest
 --platform=linux/arm64 hectorqin/remote-webview
---platform=linux/arm64 kangkang223/reader:latest
