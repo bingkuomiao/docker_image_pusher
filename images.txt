@@ -21,11 +21,11 @@
 --platform=linux/arm64 containrrr/watchtower:latest
 --platform=linux/arm64 hectorqin/reader:openj9-latest
 --platform=linux/arm64 hectorqin/remote-webview
---platform=linux/arm64 nginx:latest
+#--platform=linux/arm64 nginx:latest
 --platform=linux/arm64 hslr/sun-panel:latest
 
 # 指定amd64架构
 --platform=linux/amd64 ghcr.io/immich-app/immich-machine-learning:release-openvino
---platform=linux/amd64 hectorqin/reader
+#--platform=linux/amd64 hectorqin/reader
 --platform=linux/amd64 nginx:latest
 
