@@ -6,9 +6,7 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 # 指定arm64架构
-# immic
---platform=linux/arm64 ghcr.io/immich-app/immich-server:release
---platform=linux/arm64 ghcr.io/immich-app/immich-machine-learning:release
+# immich
 --platform=linux/arm64 ghcr.io/immich-app/immich-server:v2
 --platform=linux/arm64 ghcr.io/immich-app/immich-machine-learning:v2
 --platform=linux/arm64 docker.io/valkey/valkey:9
