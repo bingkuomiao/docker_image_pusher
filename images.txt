@@ -6,9 +6,11 @@
 # --platform=linux/arm64 xiaoyaliu/alist
 
 # 指定arm64架构
-# immich
+# immic
 --platform=linux/arm64 ghcr.io/immich-app/immich-server:release
 --platform=linux/arm64 ghcr.io/immich-app/immich-machine-learning:release
+--platform=linux/arm64 ghcr.io/immich-app/immich-server:v2
+--platform=linux/arm64 ghcr.io/immich-app/immich-machine-learning:v2
 --platform=linux/arm64 docker.io/valkey/valkey:9
 #--platform=linux/arm64 docker.io/valkey/valkey:8-bookworm
 --platform=linux/arm64 ghcr.io/immich-app/postgres:14-vectorchord0.4.3-pgvectors0.2.0
